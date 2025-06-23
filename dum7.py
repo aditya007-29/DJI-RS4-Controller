@@ -400,7 +400,7 @@ marker_size = 0.1  # 10 cm in this example
 print("Setting up camera...")
 cap = cv.VideoCapture(0)  # Adjust the index as needed
 
-controller = DJIController("/dev/ttyUSB0")
+controller = DJIController("/dev/ttyUSB1")
 
 if not cap.isOpened():
     print("Error: Could not open camera.")

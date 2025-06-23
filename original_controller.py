@@ -370,7 +370,7 @@ class DJIController():
 if __name__ == "__main__":
 
 
-    controller = DJIController("/dev/ttyUSB0")
+    controller = DJIController("/dev/ttyUSB1")
 
     mode = int(input("CommandID: "))
     if mode == 0:

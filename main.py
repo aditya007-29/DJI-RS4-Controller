@@ -33,7 +33,7 @@ print(split_string(cmd))
 
 print("INJECTING DATA FRAME")
 injected_frames = []
-port = "/dev/ttyUSB2"
+port = "/dev/ttyUSB0"
 for i in range(2):
     for frame in frames:
         print(frame)
